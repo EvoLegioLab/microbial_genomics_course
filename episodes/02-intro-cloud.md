@@ -4,28 +4,6 @@ teaching: 5
 exercises: 5
 ---
 
-<script language="javascript" type="text/javascript">
-function set_page_view_defaults() {
-    document.getElementById('div_aws_win').style.display = 'block';
-    document.getElementById('div_aws_unix').style.display = 'none';
-};
-
-function change_content_by_platform(form_control){
-    if (!form_control || document.getElementById(form_control).value == 'aws_win') {
-        set_page_view_defaults();
-    } else if (document.getElementById(form_control).value == 'aws_unix') {
-        document.getElementById('div_aws_win').style.display = 'none';
-        document.getElementById('div_aws_unix').style.display = 'block';
-        document.getElementById('div_hpc').style.display = 'none';
-        document.getElementById('div_cyverse').style.display = 'none';
-    } else {
-        alert("Error: Missing platform value for 'change_content_by_platform()' script!");
-    }
-}
-
-window.onload = set_page_view_defaults;
-</script>
-
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Log onto to a running server
@@ -66,7 +44,6 @@ operating system, but sometimes requires additional software.
 
 **Please select the platform you wish to use for the exercises: <select id="id_platform" name="platformlist" onchange="change_content_by_platform('id_platform');return false;"><option value="aws_unix" id="id_aws_unix" selected> AWS\_UNIX </option><option value="aws_win" id="id_aws_win" selected> AWS\_Windows </option></select>**
 
-<div id="div_aws_win" style="display:block" markdown="1">
 
 ## Exercises<br>
 
@@ -86,9 +63,6 @@ C. In the final step, you will be asked to provide a login and password. **Note:
 
 D. You should now be connected!
 
-</div>
-
-<div id="div_aws_unix" style="display:block" markdown="1">
 
 #### **Connecting using Mac/Linux**<br>
 
@@ -113,7 +87,6 @@ C. In the final step, you will be asked to provide a login and password. **Note:
 
 D. You should now be connected!
 
-</div>
 
 ## Logging off a server
 
