@@ -1,6 +1,7 @@
 ---
-layout: page
-title: "Instructor Notes"
+title: Instructor Notes
 ---
 
 Details about the AMI machine
+
+
