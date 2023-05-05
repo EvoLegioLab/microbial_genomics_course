@@ -8,32 +8,32 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-carpentry: 'cp'
+carpentry: 'dc'
 
 # Overall title for pages.
-title: 'Molecular Epidemiology of Infectious Diseases - computer practical'
+title: 'Microbial Genomics: evolution, phylogenetics, and molecular epidemiology'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 
+created: 2023-05-05
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries'
+keywords: 'evolution, phylogenetics, molecular epidemiology'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'stable'
+life_cycle: 'alpha'
 
 # License of the lesson materials (recommended CC-BY 4.0)
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/fishtree-attempt/microbial_genomics_course/'
+source: 'https://github.com/EvoLegioLab/microbial_genomics_course/'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'mailto:a.c.schurch@umcutrecht'
+contact: 'mailto:lionel.guy@imbim.uu.se'
 
 # Navigation ------------------------------------------------
 #
@@ -87,7 +87,6 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: https://preview.carpentries.org/microbial_genomics_course
-analytics: carpentries
+url: https://evolegiolab.github.io/microbial_genomics_course/
 lang: en
-workbench-beta: 'true'
+workbench-beta: 'false'
